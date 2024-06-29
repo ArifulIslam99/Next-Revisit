@@ -1,5 +1,5 @@
 export const metadata = {
-    "title": "About | Gallery "
+    "title": "About"
 }
 
 export default function About() {
