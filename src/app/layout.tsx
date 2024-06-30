@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: {
     default: "Welcome to Gallery", 
@@ -15,7 +17,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div style={{ backgroundColor: "aqua" }}>
-          <p>Header</p>
+          <Link href="/">Home</Link>
+          <Link href="/blog">Blogs</Link>
+          <Link href="/profile">Profile</Link>
         </div>
         {children}
         <footer style={{ backgroundColor: "aqua" }}>
